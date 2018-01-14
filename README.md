@@ -25,6 +25,10 @@ beginning at 1). For instance, the six successors shown above would correspond t
 moves (with respect to the initial board state):
 R13 R23 L13 D23 D13 U13
 
+The goal of the puzzle is to find the shortest possible sequence of moves that restores the canonical configuration given an initial board configuration provided in a text file called "input.txt" by the user.
+
+To run the code, type the following in the terminal after cloning the repo: python solver15.py input.txt
+
 IMPLEMENTATION-
 
 The state space is the physical configuration of the board that is always evolving due to the successor function in our code. It includes all the different states including already visited states.
